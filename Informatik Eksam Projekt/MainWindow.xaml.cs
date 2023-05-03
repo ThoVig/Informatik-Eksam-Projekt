@@ -24,5 +24,10 @@ namespace Informatik_Eksam_Projekt
         {
             InitializeComponent();
         }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

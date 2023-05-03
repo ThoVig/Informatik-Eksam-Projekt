@@ -26,6 +26,7 @@
             <RowDefinition Height="20" />
         </Grid.RowDefinitions>
         <Button Content="button" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="1"/>
+        <ComboBox Grid.Column="4" HorizontalAlignment="Left" Height="20" Margin="340,42,0,0" Grid.Row="6" VerticalAlignment="Top" Width="156" SelectionChanged="ComboBox_SelectionChanged"/>
     </Grid>
     
 </Window>
