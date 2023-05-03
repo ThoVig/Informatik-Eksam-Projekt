@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Informatik Eksam Projekt", "Informatik Eksam Projekt\Informatik Eksam Projekt.csproj", "{174B67B4-8873-40EE-962C-6DAA6E0B2427}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{174B67B4-8873-40EE-962C-6DAA6E0B2427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174B67B4-8873-40EE-962C-6DAA6E0B2427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174B67B4-8873-40EE-962C-6DAA6E0B2427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174B67B4-8873-40EE-962C-6DAA6E0B2427}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {834CA07D-CFDA-4B52-AB69-F7DE17C0713F}
+	EndGlobalSection
+EndGlobal
