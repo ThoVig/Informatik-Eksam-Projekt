@@ -22,18 +22,21 @@ namespace Informatik_Eksam_Projekt
     /// </summary>
     public partial class Window1 : Window
     {
+        bool flag = false;
         public Window1()
         {
             InitializeComponent();
         }
 
-        private void openFileButton(object sender, RoutedEventArgs e)
+        private void openFileButton(object sender, RoutedEventArgs e)   // Show results
         {
             List<TextBlock> textBlocks = new List<TextBlock>();
             List<TextBlock> textBlocks1 = new List<TextBlock>();
             
             OpenFileDialog ofd = new OpenFileDialog();
-            if(ofd.ShowDialog() == true)
+            ofd.Filter = "CSV Files (*.csv)|*.csv|All files (*.*)|*.*";
+
+            if (ofd.ShowDialog() == true)
             {
                 Trace.Write(ofd.FileName);
                 string[] lines = File.ReadAllLines(ofd.FileName);
@@ -59,6 +62,11 @@ namespace Informatik_Eksam_Projekt
                     stkPnl2.Children.Add(new Separator());
                 }
             }
+        }
+
+        private void makeQuestion(object sender, RoutedEventArgs e)     // Make questions
+        {
+            
         }
     }
 }
