@@ -36,5 +36,11 @@ namespace Informatik_Eksam_Projekt
             win1.Show();
             Close();
         }
+
+        private void click(object sender, RoutedEventArgs e)
+        {
+            testwindow window = new testwindow();
+            window.Show();
+        }
     }
 }

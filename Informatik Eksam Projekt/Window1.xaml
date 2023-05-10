@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Informatik_Eksam_Projekt"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+        Title="Window1" Height="450" Width="800" WindowState="Maximized">
+        
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20" />
@@ -25,6 +26,16 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="20" />
         </Grid.RowDefinitions>
-        
+        <Button Click="openFileButton" Content="open file" Grid.Column="1" Grid.Row="1"/>
+        <ScrollViewer Height="500" VerticalScrollBarVisibility="Auto" Grid.Column="2" Grid.Row="2" Grid.RowSpan="4" Width="auto">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Margin="0,0,20,0" VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Vertical" x:Name="stkPnl">
+
+                </StackPanel>
+                <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Vertical" x:Name="stkPnl2">
+
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Window>
